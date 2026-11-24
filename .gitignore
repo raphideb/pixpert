@@ -1,0 +1,11 @@
+# Publish only what is needed to run PixPert, plus README and LICENSE.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/PixPert/
+
+# Stray OS files inside the script folder
+/PixPert/**/Thumbs.db
+/PixPert/**/desktop.ini
+/PixPert/**/.DS_Store
